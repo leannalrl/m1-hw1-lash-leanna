@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+body{
+	font-family: 'Muli', sans-serif;
+	color: white;
+}
+
+header{
+	background-color: white;
+	text-align: center;
+	padding: 3%;
+}
+
+nav ul{
+	list-style-type: none;
+	margin-top: 4%;
+	text-align: center;
+}
+
+nav ul li{
+	display: inline;
+	padding: 2%;
+}
+
+nav ul li a{
+	color: cadetblue;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+  	color: burlywood;
+}
+
+h1{
+	font-size: 3em;
+	padding-top: 3%;
+	color: cadetblue;
+	font-family: 'Oxygen', sans-serif;
+}
+
+h2{
+	text-align: center;
+	color: burlywood;
+	padding-top: 3%;
+	font-family: 'Oxygen', sans-serif;
+}
+
+h3{
+	text-align: center;
+	color: white;
+	font-size: .85em;
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+
+p{
+	color: cadetblue;
+	text-align: center;
+	padding: 2%;
+}
+
+footer{
+	background-color: cadetblue;
+	padding: 1%;
+	text-align: center;
+	margin-top: 3%;
+}
